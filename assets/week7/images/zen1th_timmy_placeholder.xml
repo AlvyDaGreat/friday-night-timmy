@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="zen1th_timmy_assets.png">
+	<!-- not Created with Adobe Animate version 20.0.0.17400 because i don't have money-->
+	<!-- do not buy http://www.adobe.com/products/animate.html -->
+	<SubTexture name="zenith down" x="256" y="256" width="256" height="256" frameX="0" frameY="0" frameWidth="256" frameHeight="256"/>
+	<SubTexture name="zenith up" x="256" y="0" width="256" height="256" frameX="0" frameY="0" frameWidth="256" frameHeight="256"/>
+	<SubTexture name="zenith left" x="512" y="0" width="256" height="256" frameX="0" frameY="0" frameWidth="256" frameHeight="256"/>
+	<SubTexture name="zenith right" x="512" y="256" width="256" height="256" frameX="0" frameY="0" frameWidth="256" frameHeight="256"/>
+	<SubTexture name="zenith idle" x="0" y="0" width="256" height="256" frameX="0" frameY="0" frameWidth="256" frameHeight="256"/>
+</TextureAtlas>
