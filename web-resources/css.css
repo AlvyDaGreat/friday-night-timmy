@@ -11,3 +11,8 @@ h1 {
 p {
 	color: #FFFFFF;
 }
+
+img {
+	border: 3px solid #FFFFFF;
+	margin: auto;
+}
