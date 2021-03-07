@@ -496,6 +496,10 @@ class Character extends FlxSprite
 
 				playAnim('idle');
 
+			////////////////////////
+			//    T I M M Y S     //
+			////////////////////////
+
 			// totally didn't base this off pico 100% not clickbait
 			case 'timmyzenith':
 				tex = Paths.getSparrowAtlas('zen1th_timmy_assets');
@@ -535,6 +539,24 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 				flipX = true;
+
+			case 'timmy-og':
+				tex = Paths.getSparrowAtlas('og_timmy_assets');
+				frames = tex;
+				
+				animation.addByPrefix('idle', "Timmy IDLE", 24, false);
+				animation.addByPrefix('singUP', "Timmy UP", 24, false);
+				animation.addByPrefix('singDOWN', "Timmy DOWN", 24, false);
+				animation.addByPrefix('singLEFT', "Timmy LEFT", 24, false);
+				animation.addByPrefix('singRIGHT', "Timmy RIGHT", 24, false);
+				
+				addOffset('idle');
+				addOffset('singUP');
+				addOffset('singDOWN');
+				addOffset('singLEFT', -20, 0);
+				addOffset('singRIGHT', 20, 0);
+
+				playAnim('idle');
 		}
 
 		dance();

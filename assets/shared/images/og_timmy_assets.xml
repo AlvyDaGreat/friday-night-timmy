@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="og_timmy_assets">
+	<!-- Not Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Timmy IDLE" x="0" y="0" width="512" height="512"/>
+	<SubTexture name="Timmy UP" x="512" y="0" width="512" height="512"/>
+	<SubTexture name="Timmy DOWN" x="1024" y="0" width="512" height="512"/>
+	<SubTexture name="Timmy LEFT" x="512" y="512" width="512" height="512"/>
+	<SubTexture name="Timmy RIGHT" x="1024" y="512" width="512" height="512"/>
+</TextureAtlas>
