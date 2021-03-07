@@ -30,7 +30,7 @@ class StoryMenuState extends MusicBeatState
 		// timmy weeks
 		['Zen1th', 'Tesla', 'Me3ntrall'],
 		['Alvy', 'Skeeram', 'Rud1e'],
-		['Kevin', 'AptRock', 'urmom']
+		['Kevin', 'AptRock', 'Timmy']
 	];
 	var curDifficulty:Int = 1;
 

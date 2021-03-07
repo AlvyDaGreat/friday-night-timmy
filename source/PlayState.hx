@@ -610,6 +610,9 @@ class PlayState extends MusicBeatState
 			case 'timmy-og':
 				camPos.x += 600;
 				dad.y += 300;
+			case 'timmytesla':
+				camPos.x += 600;
+				dad.y += 300;
 		}
 
 		boyfriend = new Boyfriend(770, 450, SONG.player1);
