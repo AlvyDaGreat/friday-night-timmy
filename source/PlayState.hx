@@ -515,6 +515,10 @@ class PlayState extends MusicBeatState
 
 			add(stageCurtains);
 		}
+
+
+		// E L S E
+
 		else
 		{
 			defaultCamZoom = 0.9;
@@ -603,16 +607,19 @@ class PlayState extends MusicBeatState
 				dad.x -= 150;
 				dad.y += 100;
 				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
+			
 			// and now the timmys go here
 			case 'timmyzenith':
 				camPos.x += 600;
 				dad.y += 300;
+				gf.visible = false;
 			case 'timmy-og':
 				camPos.x += 600;
 				dad.y += 300;
 			case 'timmytesla':
 				camPos.x += 600;
 				dad.y += 300;
+				gf.visible = false;
 		}
 
 		boyfriend = new Boyfriend(770, 450, SONG.player1);
