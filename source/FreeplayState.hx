@@ -72,13 +72,13 @@ class FreeplayState extends MusicBeatState
 			addWeek(['Senpai', 'Roses', 'Thorns'], 6, ['senpai', 'senpai', 'spirit']);
 
 		if (StoryMenuState.weekUnlocked[7] || isDebug)
-			addWeek(['Zen1th', 'joe', 'mama'], 7, ['zen1th', 'tesla', 'me3ntrall']);
+			addWeek(['Zen1th', 'Tesla', 'Me3ntrall'], 7, ['timmyzenith', 'timmytesla', 'timmy-og']);
 
 		if (StoryMenuState.weekUnlocked[8] || isDebug)
-			addWeek(['aaa', 'joe', 'mama'], 8, ['aaaaaaaaa', 'aaaaaaa', 'aaaaaa']);
+			addWeek(['Alvy', 'Skeeram', 'Rud1e'], 8, ['timmy-og', 'timmy-og', 'timmy-og']);
 
 		if (StoryMenuState.weekUnlocked[9] || isDebug)
-			addWeek(['KEVIN GAMING', 'joe', 'mama'], 9, ['aaaaaaaaaaaaaaa', 'aaaaaaaaaaa', 'aaaaa']);
+			addWeek(['Kevin', 'AptRock', 'Timmy'], 9, ['timmy-og', 'timmy-og', 'timmy-og']);
 
 		// LOAD MUSIC
 
@@ -258,9 +258,11 @@ class FreeplayState extends MusicBeatState
 
 	function changeSelection(change:Int = 0)
 	{
+		/*
 		#if !switch
 		NGio.logEvent('Fresh');
 		#end
+		frick this stuff lmao */
 
 		// NGio.logEvent('Fresh');
 		FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
